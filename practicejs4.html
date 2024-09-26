@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <p id="meID"></p>
+        <script>
+            const person = {
+                firstname: "arlon boi",
+                middlename: "batoctoy",
+                lastname: "cariliman",
+                age: 21,
+            };
+            const test = person;
+            test.age = 100;
+            test.lastname = "Dracula";
+            document.getElementById("meID").innerHTML = person.firstname + " is " + person.age + " years old " + " and his family name is " + person.lastname;
+        </script>
+    </body>
+</html>
